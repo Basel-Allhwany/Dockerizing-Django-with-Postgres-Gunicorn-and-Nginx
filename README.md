@@ -1,7 +1,7 @@
 # Dockerizing-Django-with-Postgres-Gunicorn-and-Nginx
 # Table of Contents
 
-## [Prerequisites](#prerequisites)        |  [How to Build](#how-to-build)      |    [Configuration](#configuration)
+## [Prerequisites](#prerequisites)        |  [How to Build](#how-to-build)      |    [Configuration](#configuration)      |    [Using Docker-compose](#using-docker-compose)
 
 ## Prerequisites
 
@@ -80,4 +80,22 @@ Before starting, ensure you have the following prerequisites installed:
 - The proxy pass and the server name can be configured by editting ./etc/nginx/conf.d/default.conf file
 ![Screenshot from 2024-04-02 17-49-04](https://github.com/Basel-Allhwany/Dockerizing-Django-with-Postgres-Gunicorn-and-Nginx/assets/165336853/21cc88be-c926-4f0e-b790-e98c0ee79076)
 
+## Using Docker-compose
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Basel-Allhwany/Dockerizing-a-Django-Web-With-mySql.git
+    cd Dockerizing-a-Django-Web-With-mySql
+    ```
+
+2.  Run docker-compose 
+  ```bash
+   docker-compose up -d --build
+  ```
+3. Migrate Tables To The New Database:
+  ```bash
+  docker-compose exec web bash
+  # python manage.py migrate
+  ```
+4. Finally You Can Check The Connectivity Now
 
