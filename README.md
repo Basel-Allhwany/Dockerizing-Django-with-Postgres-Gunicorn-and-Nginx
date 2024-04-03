@@ -84,13 +84,13 @@ Before starting, ensure you have the following prerequisites installed:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/Basel-Allhwany/Dockerizing-a-Django-Web-With-mySql.git
+   git clone https://github.com/Basel-Allhwany/Dockerizing-a-Django-Web-With-mySql.git
     cd Dockerizing-a-Django-Web-With-mySql
     ```
 
 2.  Run docker-compose 
   ```bash
-   docker-compose up -d --build
+  docker-compose up -d --build
   ```
 3. Migrate Tables To The New Database:
   ```bash
