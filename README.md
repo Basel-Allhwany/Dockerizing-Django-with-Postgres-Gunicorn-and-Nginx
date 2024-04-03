@@ -15,7 +15,7 @@ Before starting, ensure you have the following prerequisites installed:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/Basel-Allhwany/Dockerizing-a-Django-Web-With-mySql.git
+    git clone https://github.com/Basel-Allhwany/Dockerizing-Django-with-Postgres-Gunicorn-and-Nginx.git
     cd Dockerizing-a-Django-Web-With-mySql
     ```
 2. Create a network for container communication:
@@ -84,7 +84,7 @@ Before starting, ensure you have the following prerequisites installed:
 1. Clone the repository to your local machine:
 
     ```bash
-   git clone https://github.com/Basel-Allhwany/Dockerizing-a-Django-Web-With-mySql.git
+   git clone https://github.com/Basel-Allhwany/Dockerizing-Django-with-Postgres-Gunicorn-and-Nginx.git
     cd Dockerizing-a-Django-Web-With-mySql
     ```
 
