@@ -98,4 +98,4 @@ Before starting, ensure you have the following prerequisites installed:
   # python manage.py migrate
   ```
 4. Finally You Can Check The Connectivity Now
-
+   http://10.0.0.11 to Check The Connectivity
